@@ -22,10 +22,10 @@ import torch
 import torch.nn as nn
 from torch.nn import CrossEntropyLoss, MSELoss
 
-from .configuration_roberta import RobertaConfig
-from .file_utils_roberta import add_start_docstrings, add_start_docstrings_to_callable
-from .modeling_bert import BertEmbeddings, BertLayerNorm, BertModel, BertPreTrainedModel, gelu
-from .modeling_charbert import CharBertModel
+from configuration_roberta import RobertaConfig
+from file_utils_roberta import add_start_docstrings, add_start_docstrings_to_callable
+from modeling_bert import BertEmbeddings, BertLayerNorm, BertModel, BertPreTrainedModel, gelu
+from modeling_charbert import CharBertModel
 
 logger = logging.getLogger(__name__)
 term_vocab_size = 30001
