@@ -9,7 +9,7 @@ import torch
 from torch import nn
 from torch.nn import CrossEntropyLoss, MSELoss
 
-from .modeling_bert import BertLayerNorm, CharBertEncoder, BertEncoder, BertPooler, BertPreTrainedModel, BertPredictionHeadTransform, BertOnlyMLMHead
+from modeling_bert import BertLayerNorm, CharBertEncoder, BertEncoder, BertPooler, BertPreTrainedModel, BertPredictionHeadTransform, BertOnlyMLMHead
 
 bert_charemb_config = {"char_vocab_size": 1001, \
                    "char_embedding_size": 256,\
